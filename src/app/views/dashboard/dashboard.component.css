@@ -1,0 +1,9 @@
+.main .container-fluid {
+  padding: 0 15px !important;
+}
+
+#map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
