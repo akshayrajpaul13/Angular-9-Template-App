@@ -32,7 +32,7 @@ export class AuthService {
   }
 
   logout() {
-    // remove user from local storage to log user out
+    // remove user from local storage to logout user
     sessionStorage.removeItem('currentUser');
     this.currentUserSubject.next(null);
   }
